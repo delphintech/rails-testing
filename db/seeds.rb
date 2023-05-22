@@ -8,7 +8,7 @@
 require 'faker'
 
 puts "Creating 5 products..."
-5.times do |i|
+5.times do |i| 
   product = Product.create!(
     name: Faker::Company.name,
     tagline: Faker::Company.catch_phrase
